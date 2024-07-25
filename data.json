@@ -1,0 +1,38 @@
+{
+  "regions": [
+    {"name": "Región de Arica y Parinacota"},
+    {"name": "Región de Tarapacá"},
+    {"name": "Región de Antofagasta"},
+    {"name": "Región de Atacama"},
+    {"name": "Región de Coquimbo"},
+    {"name": "Región de Valparaíso"},
+    {"name": "Región Metropolitana de Santiago"},
+    {"name": "Región del Libertador General Bernardo O'Higgins"},
+    {"name": "Región del Maule"},
+    {"name": "Región de Ñuble"},
+    {"name": "Región de Biobío"},
+    {"name": "Región de La Araucanía"},
+    {"name": "Región de Los Ríos"},
+    {"name": "Región de Los Lagos"},
+    {"name": "Región de Aysén del General Carlos Ibáñez del Campo"},
+    {"name": "Región de Magallanes y de la Antártica Chilena"}
+  ],
+  "cities": {
+    "Región de Arica y Parinacota": ["Arica", "Camarones", "Putre", "General Lagos"],
+    "Región de Tarapacá": ["Iquique", "Alto Hospicio", "Pozo Almonte", "Camiña", "Colchane", "Huara", "Pica"],
+    "Región de Antofagasta": ["Antofagasta", "Mejillones", "Sierra Gorda", "Taltal", "Calama", "Ollagüe", "San Pedro de Atacama"],
+    "Región de Atacama": ["Copiapó", "Caldera", "Tierra Amarilla", "Chañaral", "Vallenar", "Freirina", "Huasco"],
+    "Región de Coquimbo": ["La Serena", "Coquimbo", "Andacollo", "Ovalle", "Illapel", "Los Vilos", "Salamanca"],
+    "Región de Valparaíso": ["Valparaíso", "Viña del Mar", "San Antonio", "Quillota", "San Felipe", "Los Andes", "Puchuncaví"],
+    "Región Metropolitana de Santiago": ["Santiago", "Puente Alto", "Maipú", "Las Condes", "Ñuñoa", "La Florida", "San Bernardo"],
+    "Región del Libertador General Bernardo O'Higgins": ["Rancagua", "Machalí", "San Fernando", "Pichilemu", "San Vicente de Tagua Tagua", "Santa Cruz", "Nancagua"],
+    "Región del Maule": ["Talca", "Curicó", "Linares", "Cauquenes", "San Javier", "Constitución", "Parral"],
+    "Región de Ñuble": ["Chillán", "Chillán Viejo", "Quirihue", "Yungay", "San Carlos", "Bulnes", "Coelemu"],
+    "Región de Biobío": ["Concepción", "Talcahuano", "Los Ángeles", "Chiguayante", "Coronel", "Hualpén", "San Pedro de la Paz"],
+    "Región de La Araucanía": ["Temuco", "Villarrica", "Pucón", "Angol", "Cañete", "Lautaro", "Curacautín"],
+    "Región de Los Ríos": ["Valdivia", "Ranco", "Lago Ranco", "Panguipulli", "Río Bueno", "Los Lagos", "Corral"],
+    "Región de Los Lagos": ["Puerto Montt", "Osorno", "Frutillar", "Puerto Varas", "Castro", "Ancud", "Chonchi"],
+    "Región de Aysén del General Carlos Ibáñez del Campo": ["Coyhaique", "Puerto Aysén", "Chile Chico", "Cochrane", "Río Ibañez", "La Junta", "Aysén"],
+    "Región de Magallanes y de la Antártica Chilena": ["Punta Arenas", "Puerto Natales", "Porvenir", "Cabo de Hornos", "Puerto Williams", "Laguna Blanca", "Río Seco"]
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seleccionar Región y Ciudad</title>
+  <script>
+    async function fetchOptions() {
+      // Carga el archivo JSON desde la misma carpeta
+      const response = await fetch('data.json');
+      const data = await response.json();
+
+      const regionSelect = document.getElementById('region');
+      const citySelect = document.getElementById('city');
+
+      // Llena las regiones
+      data.regions.forEach(region => {
+        const option = document.createElement('option');
+        option.value = region.name;
+        option.text = region.name;
+        regionSelect.add(option);
+      });
+
+      // Llena las ciudades según la región seleccionada
+      regionSelect.addEventListener('change', () => {
+        const selectedRegion = regionSelect.value;
+        const cities = data.cities[selectedRegion] || [];
+
+        citySelect.innerHTML = '';
+        citySelect.disabled = cities.length === 0;
+
+        cities.forEach(city => {
+          const option = document.createElement('option');
+          option.value = city;
+          option.text = city;
+          citySelect.add(option);
+        });
+      });
+    }
+
+    window.onload = fetchOptions;
+  </script>
+</head>
+<body>
+  <h1>Seleccionar Región y Ciudad</h1>
+  <label for="region">Región:</label>
+  <select id="region">
+    <option value="">Seleccione una región</option>
+  </select>
+  <br><br>
+  <label for="city">Ciudad:</label>
+  <select id="city" disabled>
+    <option value="">Seleccione una ciudad</option>
+  </select>
+</body>
+</html>
